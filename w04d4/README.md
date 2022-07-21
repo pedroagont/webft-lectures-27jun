@@ -12,6 +12,10 @@
 - [ ] CSS Preprocessors
 - [ ] Intro to Sass/SCSS
 
+### Video
+
+[https://vimeo.com/732275374/769eddfe08](https://vimeo.com/732275374/769eddfe08)
+
 ### Responsive Design
 
 - From [Wikipedia](https://en.wikipedia.org/wiki/Responsive_web_design):
