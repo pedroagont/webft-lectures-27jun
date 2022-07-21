@@ -1,0 +1,38 @@
+@import '_variables';
+
+.navbar-top {
+  height: 10vh;
+  padding: 0 1.5em;
+  background: $navcolor;
+  color: $fontcolor;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 1.5em;
+}
+
+.navbar-bars {
+  display: none;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  
+  width: 50vw;
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: $fontcolor;
+    text-decoration: none;
+  }
+}

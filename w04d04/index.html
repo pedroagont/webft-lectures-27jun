@@ -6,35 +6,42 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Responsive Design 📲🎨</title>
   
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="./layout.css">
-  <link rel="stylesheet" href="./nav.css">
-  <link rel="stylesheet" href="./header.css">
-  <link rel="stylesheet" href="./main.css">
-
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-  
+  <!-- Navigation bar -->
   <nav class="navbar-top">
     <span class="navbar-brand">My app!</span>
+    <div class="navbar-bars"><i class="fa-solid fa-bars"></i></div>
     <ul class="navbar-menu">
-      <li>Home</li>
-      <li>Items</li>
-      <li>New Item</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Items</a></li>
+      <li><a href="#">New item</a></li>
     </ul>
   </nav>
   
+  <!-- Header -->
   <header class="header">
     <h1 class="header-title">Responsive Design 📲🎨</h1>
     <h2 class="header-subtitle">This lecture is awesome!</h2>
+    <p class="header-description">Change the size of the window to see the layout!</p>
     <button class="header-cta">Click me now!</button>
   </header>
   
+  <!-- Main -->
   <main class="main">
     <section>
       <h2>This are the main items!</h2>
+      
       <div class="items-list">
-        
         <article class="item">
           <h4>Item</h4>
           <p>Description</p>
@@ -49,11 +56,10 @@
           <h4>Item</h4>
           <p>Description</p>
         </article>
-        
       </div>
     </section>
     <section>
-      <h3>This are all items!</h3>
+      <h2>This are all items!</h2>
       
       <div class="items-list">
         <article class="item">
@@ -90,8 +96,6 @@
   </main>
   
   <footer></footer>
-  
-  
-  
+    
 </body>
 </html>

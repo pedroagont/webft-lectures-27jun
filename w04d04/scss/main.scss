@@ -1,0 +1,25 @@
+@import '_variables';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background: beige;
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+}
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article.item {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em;
+  width: 200px;
+}

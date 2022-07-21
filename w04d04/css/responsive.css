@@ -1,0 +1,22 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-bars {
+    display: block;
+    font-size: 1.5em;
+  }
+  .header {
+    text-align: center;
+  }
+  article.item {
+    width: 500px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  article.item {
+    width: 100px;
+  }
+}

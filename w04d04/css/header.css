@@ -1,0 +1,22 @@
+.header {
+  background: #63CCCA;
+  padding: 1.5em;
+}
+
+.header-title {
+  font-size: 2em;
+}
+
+.header-subtitle {
+  font-size: 1.3em;
+}
+
+.header-description {
+  font-style: italic;
+}
+
+.header-cta {
+  border: 1px solid #397367;
+  background: transparent;
+  padding: 0.6em;
+}
