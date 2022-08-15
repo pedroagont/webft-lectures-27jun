@@ -8,6 +8,10 @@
 - [ ] Immutable Patterns
 - [ ] Q and A
 
+### Video
+
+[https://vimeo.com/739714950/d5235b7f3a](https://vimeo.com/739714950/d5235b7f3a)
+
 ### Components
 
 - Components are the building blocks of a web page
